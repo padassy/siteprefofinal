@@ -1,0 +1,375 @@
+/*Couleur fond page hors index*/
+body {background-color: #0c2342;
+     font-family: 'Source Sans Pro', sans-serif;
+     max-width: 1750px;}
+     
+
+footer {
+     background-color: #89909d7d;
+     max-width: 1750px;
+     border-radius: 10px;
+}
+
+
+/* Fond page index*/
+.fond {background-image:url(../photo/fondindex.png);
+     
+     background-repeat: no-repeat;
+     height:  100vh;
+     background-size: cover;
+     text-align: center;
+     padding: auto;
+     min-width: 1750px;
+     max-width: 1750px;
+     min-height: 984px;
+     max-height: 984px;
+     position: absolute;
+     border-radius: 10px;
+}
+
+/*Boutons carte index */
+button {
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     background-color: #ffc32c;
+     border-style: none;
+     text-align: justify;
+     overflow: hidden;
+     opacity: 0.1;
+     font-family: 'Satisfy', cursive;
+     text-decoration: none;
+}
+
+button a {
+     text-decoration: none;
+     color: #0c2342;
+}
+ 
+/*bouton vers intro */
+.button0 {position: absolute;
+          top: 82.5%;
+          left: 15.5%;
+
+         }
+
+/*Bouton index deja visite*/
+
+button a:visited {color: #0c2342;}
+
+/*Bouton vers Cf2m*/
+
+.button1 {
+     position: absolute;
+     top: 72.4%;
+     left: 34.5%;
+     z-index: auto;
+}
+
+/*Bouton vers interview*/
+.button2 {
+     position: absolute;
+     top: 56.5%;
+     left:49.6%;
+     z-index: auto;
+
+}
+
+/*bouton vers exposition*/
+
+.button3 {
+     position: absolute;
+     top: 36.6%;
+     left: 51.4%;
+     z-index: auto;
+}
+
+/*bouton vers galerie*/
+.button4 {
+     position: absolute;
+     top: 23.8%;
+     left :64.4%;
+}
+
+/*bouton vers ma conclusion */
+.button5 {
+     position: absolute;
+     top: 24.9%;
+     left: 79.8%;
+}
+
+/*Survol boutons */
+button:hover{ background-color: #f59516;
+              cursor: pointer;
+              transform:scale(2);
+              opacity: 1;
+}
+
+
+
+/*Menu nav*/
+
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #414d61;
+     border-radius: 10px;
+     min-width: 1750px;
+     
+ }
+ 
+ li {
+     float: left;
+     border-right: 1px solid #f59516;
+     font-size: large;
+     text-align: center;
+     
+ } 
+ 
+
+ li a {
+     display: inline-block;
+     color: #f3b131;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+
+ }
+
+ 
+ /* Change the link color to #111 (black) on hover */
+
+
+ li a:hover {
+     background-color: #596375;
+ }
+
+ .Active {
+     background-color: #89909d;
+ }
+
+
+/* body expo*/
+
+.bodyexpo {max-width: 1750px;
+          
+ }
+
+
+/*page exposition header*/
+
+.headexpo {
+     background-color: #ded9d1;
+     border-radius:10px;
+     padding: 1em 1em;
+     font-family: 'Raleway', sans-serif;
+     font-size: larger;
+}
+
+
+/*Fondexpo*/
+
+.fondexpo {
+     background-image: url(../photo/fondbodyexpo.png);
+     background-size: cover;
+     max-width:1750px;
+}
+
+
+/* page exposition main */
+
+.expomain {
+     border-radius: 10px;
+     padding: 1em 1em;
+     margin: auto;
+     max-width: 1200px;
+     background-color: #89909da6;
+     
+ }
+
+
+/*.exposection disposition*/
+
+.exposection {
+     display: flex;
+     flex-direction: column;
+     align-items: stretch;
+     z-index: 1;;
+ }
+
+/*Image expo*/
+
+.imageexpo {float: left;}
+
+article {
+     border-radius: 10px;
+     background-color: #d0d2d8d9 ;
+     padding: 10px 50px;
+     align-items: center;
+     margin-bottom: 50px;
+     font-size:medium;
+     font-weight: 300;
+     line-height: 1.5em;
+ }
+/*Comportement logo eb!*/
+
+br+a {float: left;
+ }
+
+
+/*h1*/
+
+h1 {padding-left: 130px;
+ }
+
+
+.minicarte { float: left;
+     
+ }
+
+/* espace article phto*/
+
+article img {
+     margin-right: 30px;
+}
+
+/* Taille 1ere lettre article*/
+
+.lettrearticle {
+     font-size: x-large;
+     float: left;
+     font-family: 'Raleway', sans-serif;
+
+}
+
+/*Fond header*/
+
+header {background-color: #ded9d1;
+        border-radius: 10px;
+        padding: 1em 1em;
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+        font-size: larger;
+     }
+
+/*Page intro*/
+
+h2 a {
+     text-decoration: none;
+     color: #0c2342;
+}
+
+h2 a:visited {
+     color: #0c2342;
+}
+
+.bodyintro {
+     display: flex;
+     margin-top: 350px;
+     margin-left: 25%;
+     margin-right:25%;
+     align-content: flex-start;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+}
+
+.fondintro { background-image: url(../photo/fond_intro.png);
+
+     padding: 30px;
+      border-radius: 10px;
+ }
+
+.pageintro h1 {
+     padding: 30px;
+}
+
+.pageintro h2 {
+     padding: 30px;
+}
+
+.pageintro{
+     width: 400px;
+     height: 250px;
+     max-width: 1100px;
+     align-content: flex-start;
+     padding: 30px;
+    
+     
+     
+}
+
+/*Page interview*/
+
+.sectioninterview {
+     display: flex;
+     flex-direction: column;
+     background-image: url(../photo/fondinterview.png);
+     border-radius: 10px ;
+     justify-content: flex-start;
+     
+}
+
+
+
+.articleinterview { max-width: 1200px;
+}
+
+.articleliens {
+     display: flex;
+     flex-direction:column;
+     max-width: 1200px;
+     align-items: flex-start;
+}
+
+
+/*Page galerie*/
+
+#galerie { display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+.articlegalerie {
+     max-width: 1200px;
+}
+
+.maingalerie {
+     background-image: url(../photo/fondgalerie3.png);
+     max-width: 1750px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-width: 1750px;
+     border-radius: 10px;
+}
+
+
+
+
+/*Page conclusion*/
+
+#mainconclu {
+     background-image: url(../photo/fondconclu3.png);
+     background-size: auto;
+     max-width: 1750px;
+     max-height:1000px;
+     min-width: 1750px;
+     min-height: 1000px;
+     background-repeat: no-repeat;
+     border-radius: 10px;
+}
+
+.sectionconclusion {
+     max-width: 1200px;
+     float: left;
+}
+
+.footerconclu {
+
+     border-radius: 10px;
+      ;
+}
+
