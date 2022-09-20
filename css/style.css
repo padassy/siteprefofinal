@@ -10,16 +10,9 @@ footer {
      border-radius: 10px;
 }
 
-.haut {float: right;}
-
-.haut a {text-decoration: none;}
-
-.haut a:visited {
-     text-decoration: none;
-     color: #000000;
- }
 
 /* Fond page index*/
+
 .fond {background-image:url(../photo/fondindex.png);
      
      background-repeat: no-repeat;
@@ -117,7 +110,7 @@ button:hover{ background-color: #f59516;
 
 /*Menu nav*/
 
-ul {
+.listemenu {
      list-style-type: none;
      margin: 0;
      padding: 0;
@@ -129,7 +122,7 @@ ul {
      
  }
  
- li {
+ .nav {
      float: left;
      border-right: 1px solid #f59516;
      font-size: large;
@@ -138,7 +131,7 @@ ul {
  } 
  
 
- li a {
+ .nav a {
      display: inline-block;
      color: #f3b131;
      text-align: center;
@@ -151,7 +144,7 @@ ul {
  /* Change the link color to #111 (black) on hover */
 
 
- li a:hover {
+ .nav a:hover {
      background-color: #596375;
  }
 
@@ -343,6 +336,7 @@ h2 a:visited {
 
 .articlegalerie {
      max-width: 1200px;
+     text-align: center;
 }
 
 .maingalerie {
@@ -352,6 +346,7 @@ h2 a:visited {
      background-repeat: no-repeat;
      min-width: 1750px;
      border-radius: 10px;
+
 }
 
 
@@ -398,3 +393,49 @@ h2 a:visited {
 
 /*Retour haut de page*/
 
+
+img{max-width: 100%}
+
+.slider_focus{
+
+max-width: 1200px;
+margin: 2rem auto
+	
+	}	
+	
+.slider_focus ul{
+	
+display: flex;
+padding-bottom: 66.67%;/* ratio pour le responsive */
+position: relative;
+overflow: hidden;
+list-style-type: none;
+margin:0;
+
+	
+	}
+
+.slider_focus ul li a img{
+
+flex: 1;/*les photos occupent la même place selon la largeur du conteneur*/
+padding: .5rem;
+	
+	}
+
+.slider_focus ul li span img{
+
+position: absolute;
+bottom: 0;
+left: -100%;
+opacity: 0;
+transition: all .6s
+	
+	}
+
+
+.slider_focus ul li:focus-within span img{
+	
+left: 0;
+opacity: 1
+	
+	}
