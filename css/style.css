@@ -349,50 +349,7 @@ h2 a:visited {
 
 }
 
-
-
-
-/*Page conclusion*/
-
-#mainconclu {
-     background-image: url(../photo/fondconclu.png);
-     background-size: auto;
-     max-width: 1750px;
-     max-height:1400px;
-     min-width: 1750px;
-     min-height: 1400px;
-     background-repeat: no-repeat;
-     border-radius: 10px;
-     display: flex;
-}
-
-.sectionconclusion {
-     max-width: 1200px;
-     float: left;
-}
-
-.footerconclu {
-
-     border-radius: 10px;
-     position: absolute;
-     margin-top: 71%;
-     max-width: 1750px;
-     min-width: 1750px;
-
-}
-
-#merci { background-color:#d0d2d8d9;
-     max-width: 250px;
-     padding:30px;
-     margin-left: 150px;
-     border-radius: 10px;
-     max-height: 350px;
-     margin-top: 652px;
-     
-}
-
-/*Retour haut de page*/
-
+/*comportement galerie*/
 
 img{max-width: 100%}
 
@@ -435,7 +392,49 @@ transition: all .6s
 
 .slider_focus ul li:focus-within span img{
 	
-left: 0;
-opacity: 1
+left: 100px;
+opacity: 1;
 	
 	}
+
+
+
+
+/*Page conclusion*/
+
+#mainconclu {
+     background-image: url(../photo/fondconclu.png);
+     background-size: auto;
+     max-width: 1750px;
+     max-height:1400px;
+     min-width: 1750px;
+     min-height: 1400px;
+     background-repeat: no-repeat;
+     border-radius: 10px;
+     display: flex;
+}
+
+.sectionconclusion {
+     max-width: 1200px;
+     float: left;
+}
+
+.footerconclu {
+
+     border-radius: 10px;
+     position: absolute;
+     margin-top: 71%;
+     max-width: 1750px;
+     min-width: 1750px;
+
+}
+
+#merci { background-color:#d0d2d8d9;
+     max-width: 250px;
+     padding:30px;
+     margin-left: 150px;
+     border-radius: 10px;
+     max-height: 350px;
+     margin-top: 652px;
+     
+}
