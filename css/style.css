@@ -10,6 +10,14 @@ footer {
      border-radius: 10px;
 }
 
+.haut {float: right;}
+
+.haut a {text-decoration: none;}
+
+.haut a:visited {
+     text-decoration: none;
+     color: #000000;
+ }
 
 /* Fond page index*/
 .fond {background-image:url(../photo/fondindex.png);
@@ -117,6 +125,7 @@ ul {
      background-color: #414d61;
      border-radius: 10px;
      min-width: 1750px;
+     font-family: 'Raleway', sans-serif;
      
  }
  
@@ -153,7 +162,7 @@ ul {
 
 /* body expo*/
 
-.bodyexpo {max-width: 1750px;
+#bodyexpo {max-width: 1750px;
           
  }
 
@@ -308,6 +317,7 @@ h2 a:visited {
      background-image: url(../photo/fondinterview.png);
      border-radius: 10px ;
      justify-content: flex-start;
+     background-repeat: no-repeat;
      
 }
 
@@ -317,11 +327,9 @@ h2 a:visited {
 }
 
 .articleliens {
-     display: flex;
-     flex-direction:column;
-     max-width: 1200px;
-     align-items: flex-start;
+     max-width:1200px;
 }
+
 
 
 /*Page galerie*/
@@ -352,14 +360,15 @@ h2 a:visited {
 /*Page conclusion*/
 
 #mainconclu {
-     background-image: url(../photo/fondconclu3.png);
+     background-image: url(../photo/fondconclu.png);
      background-size: auto;
      max-width: 1750px;
-     max-height:1000px;
+     max-height:1400px;
      min-width: 1750px;
-     min-height: 1000px;
+     min-height: 1400px;
      background-repeat: no-repeat;
      border-radius: 10px;
+     display: flex;
 }
 
 .sectionconclusion {
@@ -370,6 +379,22 @@ h2 a:visited {
 .footerconclu {
 
      border-radius: 10px;
-      ;
+     position: absolute;
+     margin-top: 71%;
+     max-width: 1750px;
+     min-width: 1750px;
+
 }
+
+#merci { background-color:#d0d2d8d9;
+     max-width: 250px;
+     padding:30px;
+     margin-left: 150px;
+     border-radius: 10px;
+     max-height: 350px;
+     margin-top: 652px;
+     
+}
+
+/*Retour haut de page*/
 
