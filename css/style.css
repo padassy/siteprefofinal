@@ -9,8 +9,9 @@ margin-right: auto;
 
 /*h1*/
 
-h1{
+.h1{
      padding-left:130px;
+     /*text-shadow: 5px 2px 5px #0c2342;*/
 
 }
 
@@ -301,16 +302,9 @@ h2 a:visited{
      background-image: url(../photo/fond_intro.png);
      padding:30px;
      border-radius:10px;
+     text-align:center;
 }
 
-
-.pageintro h1{
-     padding:30px;
-}
-
-.pageintro h2{
-     padding:30px;
-}
 
 .pageintro{
      width:400px;
@@ -449,8 +443,8 @@ img{
 
 .footerconclu{
      border-radius:10px;
-     max-width:1750px;
-     min-width:1750px;
+     max-width:1740px;
+     min-width:1740px;
 }
 
 
