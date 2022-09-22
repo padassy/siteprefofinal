@@ -3,9 +3,19 @@ body{
      background-color: #0c2342;
      font-family: 'Source Sans Pro', sans-serif;
      max-width: 1750px;
-margin-left: auto;
-margin-right: auto;
+     margin-left: auto;
+     margin-right: auto;
+     scrollbar-width: thin;
 }
+::-webkit-scrollbar {
+     width: 8px;
+   }
+   /* Ascenseur */
+::-webkit-scrollbar-thumb {
+     background: #414d61;
+     border-radius: 8px;
+   }
+
 
 /*h1*/
 
