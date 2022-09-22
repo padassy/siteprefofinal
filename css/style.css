@@ -113,7 +113,7 @@ button{
      border-style:none;
      text-align:left;
      overflow:hidden;
-     opacity:0.1;
+     opacity:0;
      font-family:'Satisfy',cursive;
      text-decoration:none;
      line-height: 23px;
@@ -334,8 +334,8 @@ h2 a:visited{
      background-size: cover;
      min-width:1750px;
      max-width: 1750px;
-     min-height: 1163px;
-     max-height: 1163px;
+     min-height: 1207.5px;
+     max-height: 1207.5px;
 }
 
 .sectioninterview{
